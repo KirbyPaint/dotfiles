@@ -1,0 +1,21 @@
+[user]
+	name = Ash Porter
+	email = ashley.porter@eyecuelab.com
+[init]
+	defaultBranch = main
+[alias]
+	cb = checkout -b
+	last = log -1 HEAD
+	s = status
+	b = branch
+	aa = add .
+	rr = restore .
+	c = checkout
+	bb = switch -
+	psps = pull origin main --rebase
+	cm = commit -m
+	ch = checkout
+	tree = log --graph --oneline --all
+	sw = switch
+	aliases = config --list | grep alias
+	pp = push origin
