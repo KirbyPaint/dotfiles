@@ -19,3 +19,5 @@
 	sw = switch
 	aliases = config --list | grep alias
 	pp = push origin
+	fuck = netstat -ltnp | grep -w ':1323'
+	kill = kill -9
